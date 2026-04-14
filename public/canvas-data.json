@@ -1,0 +1,219 @@
+[
+  {
+    "id": "logo",
+    "x": 32,
+    "y": 20,
+    "w": 110,
+    "h": 44,
+    "content": "Mi-Lot",
+    "cls": "text-2xl font-bold tracking-tight",
+    "sty": {
+      "color": "var(--purple-light)"
+    }
+  },
+  {
+    "id": "nav-btn",
+    "x": 1219.5669291338584,
+    "y": 17.46981627296588,
+    "w": 165.57742782152232,
+    "h": 68.98687664041995,
+    "content": "Get started",
+    "cls": "px-5 py-2 rounded-full text-sm font-semibold text-center",
+    "sty": {
+      "background": "var(--purple)",
+      "color": "#fff"
+    },
+    "fontSize": 19
+  },
+  {
+    "id": "milo",
+    "x": 541.1023622047244,
+    "y": 157.16535433070868,
+    "w": 317.79527559055117,
+    "h": 258.8451443569554,
+    "content": "/milo.html",
+    "cls": "",
+    "isIframe": true
+  },
+  {
+    "id": "h1-white",
+    "x": 360,
+    "y": 425,
+    "w": 680,
+    "h": 65,
+    "content": "Why Go To Dealers",
+    "cls": "text-5xl font-extrabold text-white text-center"
+  },
+  {
+    "id": "h1-purple",
+    "x": 300,
+    "y": 472.3622047244094,
+    "w": 800,
+    "h": 145,
+    "content": "When The Dealers Can \nCome To You?",
+    "cls": "text-5xl font-extrabold text-center",
+    "sty": {
+      "color": "var(--purple-light)"
+    },
+    "textColor": "#a855f7"
+  },
+  {
+    "id": "sub",
+    "x": 415,
+    "y": 609.4356955380578,
+    "w": 570,
+    "h": 80,
+    "content": "Tell me what you want. I'll put it in front of the right people. You pick the best offer. Simple as that.",
+    "cls": "text-lg text-white/60 leading-relaxed text-center"
+  },
+  {
+    "id": "cta",
+    "x": 585,
+    "y": 728.3989501312336,
+    "w": 230,
+    "h": 60,
+    "content": "Find my car",
+    "cls": "rounded-full text-lg font-bold text-white text-center flex items-center justify-center",
+    "sty": {
+      "background": "linear-gradient(135deg, var(--purple) 0%, var(--purple-mid) 100%)",
+      "boxShadow": "0 0 32px var(--purple-glow)"
+    },
+    "fontSize": 23
+  },
+  {
+    "id": "fine",
+    "x": 570,
+    "y": 827.7112860892388,
+    "w": 260,
+    "h": 30,
+    "content": "Free. No spam. No pressure.",
+    "cls": "text-sm text-white/30 text-center",
+    "fontSize": 14
+  },
+  {
+    "id": "hiw-title",
+    "x": 500,
+    "y": 940,
+    "w": 400,
+    "h": 50,
+    "content": "How it works",
+    "cls": "text-2xl font-bold text-center",
+    "sty": {
+      "color": "var(--purple-light)"
+    },
+    "fontSize": 32
+  },
+  {
+    "id": "card-1",
+    "x": 80,
+    "y": 1020,
+    "w": 360,
+    "h": 170,
+    "content": "",
+    "cls": "",
+    "sty": {
+      "background": "rgba(123,47,190,0.07)"
+    },
+    "card": {
+      "num": "1",
+      "title": "Tell me what you want",
+      "body": "Vehicle type, budget, trade-in — whatever you've got. Takes two minutes."
+    }
+  },
+  {
+    "id": "card-2",
+    "x": 515,
+    "y": 1020,
+    "w": 360,
+    "h": 170,
+    "content": "",
+    "cls": "",
+    "sty": {
+      "background": "rgba(123,47,190,0.07)"
+    },
+    "card": {
+      "num": "2",
+      "title": "I go to work",
+      "body": "Your request goes out to real sales reps who are ready to earn your business."
+    }
+  },
+  {
+    "id": "card-3",
+    "x": 950,
+    "y": 1020,
+    "w": 360,
+    "h": 170,
+    "content": "",
+    "cls": "",
+    "sty": {
+      "background": "rgba(123,47,190,0.07)"
+    },
+    "card": {
+      "num": "3",
+      "title": "We match you with a dealer who has an offer and connect them to you",
+      "body": "No pressure, no dealership visits until you're ready."
+    }
+  },
+  {
+    "id": "quote",
+    "x": 310,
+    "y": 1263.0971128608924,
+    "w": 780,
+    "h": 90,
+    "content": "",
+    "cls": "text-2xl font-bold text-center",
+    "quoteParts": {
+      "first": "“How do you trust a car salesman? \nYou don’t. <font color=\"#984be1\">That’s why I’m here.”</font>",
+      "second": "\n"
+    },
+    "textColor": "#ffffff"
+  },
+  {
+    "id": "quote-attr",
+    "x": 510,
+    "y": 1346.1942257217847,
+    "w": 380,
+    "h": 30,
+    "content": "— Milo, your guy on the inside",
+    "cls": "text-sm text-white/40 text-center"
+  },
+  {
+    "id": "footer-l",
+    "x": 32,
+    "y": 1500,
+    "w": 340,
+    "h": 28,
+    "content": "© 2026 Mi-Lot — Vehicle Referral Network",
+    "cls": "text-xs text-white/30"
+  },
+  {
+    "id": "footer-r",
+    "x": 1240,
+    "y": 1500,
+    "w": 140,
+    "h": 28,
+    "content": "Nashville, TN",
+    "cls": "text-xs text-white/30 text-right"
+  },
+  {
+    "id": "text-1776044977869",
+    "x": 509.21259842519686,
+    "y": 71.54855643044621,
+    "w": 381.5748031496063,
+    "h": 109.5275590551181,
+    "content": "Need a <font color=\"#8955eb\">Car</font>?",
+    "cls": "text-lg text-white text-center",
+    "textColor": "#ffffff",
+    "fontSize": 47,
+    "fontWeight": 700
+  },
+  {
+    "id": "text-1776045402607",
+    "x": 164.9081364829396,
+    "y": 220.73490813648297,
+    "w": 300,
+    "h": 50,
+    "content": "\n",
+    "cls": "text-lg text-white text-center"
+  }
+]
