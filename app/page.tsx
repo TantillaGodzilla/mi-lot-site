@@ -65,7 +65,7 @@ function Hero() {
 
       {/* body */}
       <p style={{ fontSize: 18, color: "rgba(240,238,255,0.55)", lineHeight: 1.7, maxWidth: 520, marginBottom: 36 }}>
-        Tell me what you want. I&apos;ll put it in front of the right people. You pick the best offer. Simple as that.
+        Tell Me What You Want. I&apos;ll Put It In Front Of The Right People. You Pick The Best Offer. Simple As That.
       </p>
 
       {/* CTA */}
