@@ -31,7 +31,7 @@
     "y": 157.16535433070868,
     "w": 317.79527559055117,
     "h": 258.8451443569554,
-    "content": "/milo.html",
+    "content": "/milo-random.html",
     "cls": "",
     "isIframe": true
   },
@@ -50,7 +50,7 @@
     "y": 472.3622047244094,
     "w": 800,
     "h": 145,
-    "content": "When The Dealers Can \nCome To You?",
+    "content": "When The Dealers Can Come\nTo You?",
     "cls": "text-5xl font-extrabold text-center",
     "sty": {
       "color": "var(--purple-light)"

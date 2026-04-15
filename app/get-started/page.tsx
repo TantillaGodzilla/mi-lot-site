@@ -1,5 +1,6 @@
 import Link from "next/link"
 import LeadForm from "../components/LeadForm"
+import GetStartedMiloEditor from "../components/GetStartedMiloEditor"
 
 export const metadata = {
   title: "Find My Car — Mi-Lot",
@@ -37,14 +38,7 @@ export default function GetStarted() {
       }}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: 48 }}>
-          {/* Milo */}
-          <div style={{ width: 120, height: 100, margin: "0 auto 20px" }}>
-            <iframe
-              src="/milo.html"
-              style={{ width: "100%", height: "100%", border: "none", background: "transparent" }}
-              title="Milo"
-            />
-          </div>
+          <GetStartedMiloEditor />
 
           <h1 style={{
             fontSize: "clamp(28px, 5vw, 44px)", fontWeight: 900,

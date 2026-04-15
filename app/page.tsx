@@ -59,8 +59,8 @@ function Hero() {
 
       {/* sub-headline */}
       <h2 style={{ fontSize: "clamp(28px, 4.5vw, 56px)", fontWeight: 800, lineHeight: 1.15, maxWidth: 760, marginBottom: 20, position: "relative", zIndex: 1 }}>
-        <span style={{ color: "#fff" }}>Why go to dealers </span>
-        <span style={{ color: "var(--purple-light)" }}>when the dealers can come to you?</span>
+        <span style={{ color: "#fff", display: "block" }}>Why go to dealers</span>
+        <span style={{ color: "var(--purple-light)", display: "block" }}>when the dealers can come to you?</span>
       </h2>
 
       {/* body */}
@@ -149,8 +149,11 @@ function Quote() {
   return (
     <section style={{ padding: "60px 24px 80px", maxWidth: 800, margin: "0 auto", textAlign: "center" }}>
       <p style={{ fontSize: "clamp(20px, 3vw, 28px)", fontWeight: 700, lineHeight: 1.5, color: "#fff", marginBottom: 16 }}>
-        &ldquo;How do you trust a car salesman? You don&apos;t.{" "}
-        <span style={{ color: "var(--purple-light)" }}>That&apos;s why I&apos;m here.&rdquo;</span>
+        <span style={{ display: "block" }}>&ldquo;How do you trust a car salesman?</span>
+        <span style={{ display: "block" }}>
+          You don&apos;t.{" "}
+          <span style={{ color: "var(--purple-light)" }}>That&apos;s why I&apos;m here.&rdquo;</span>
+        </span>
       </p>
       <p style={{ fontSize: 13, color: "rgba(240,238,255,0.35)" }}>
         — Milo, your guy on the inside

@@ -9,7 +9,6 @@ interface LeadFormData {
   timeline: string
   new_or_used: string
   motivations: string
-  quick_request: string
   // More Specific Needs
   body_style: string[]
   seats: string[]
@@ -50,7 +49,7 @@ interface LeadFormData {
 
 const EMPTY: LeadFormData = {
   buyer_focus: "", timeline: "", new_or_used: "",
-  motivations: "", quick_request: "",
+  motivations: "",
   body_style: [], seats: [], fuel_type: [],
   makes: [], models: [], year_from: "", year_to: "",
   specifics: "", must_have: "", preferred: "",
@@ -785,16 +784,6 @@ export default function LeadForm() {
             <p style={{ fontSize: 13, color: "rgba(240,238,255,0.4)", margin: 0, lineHeight: 1.6 }}>
               Describe what you want in a sentence or two — or use the fields below. No need to do both.
             </p>
-            <label style={labelStyle}>
-              Just describe what you want
-              <textarea
-                value={form.quick_request}
-                onChange={set("quick_request")}
-                placeholder="e.g., 2022–2024 Honda CR-V, used, under $28k, financed — sunroof preferred"
-                style={textareaStyle}
-              />
-            </label>
-
             <div style={{ borderTop: "1px solid rgba(168,85,247,0.12)", margin: "4px 0" }} />
 
             <div style={fieldGroupStyle}>

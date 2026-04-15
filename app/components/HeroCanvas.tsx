@@ -1,13 +1,6 @@
 "use client"
 
-import { useState } from "react"
-
-const POOL = [2, 3, 4, 5, 6]
-
-function pickRandom(exclude: number) {
-  const options = POOL.filter(n => n !== exclude)
-  return options[Math.floor(Math.random() * options.length)]
-}
+import MiloSprite from "./MiloSprite"
 
 const MILO_SCALE = 0.93
 const GLOW_SIZE  = 1065
@@ -18,8 +11,6 @@ const CROP_OFFSET_X = -(720 - CROP_W) / 2  // -190
 const CROP_OFFSET_Y = -150                   // start at y=150, end at y=390
 
 export default function HeroCanvas() {
-  const [num, setNum] = useState(() => POOL[Math.floor(Math.random() * POOL.length)])
-
   const miloW = Math.round(CROP_W * MILO_SCALE)
   const miloH = Math.round(CROP_H * MILO_SCALE)
 
@@ -39,34 +30,14 @@ export default function HeroCanvas() {
       }} />
 
       {/* Milo */}
-      <div
-        onClick={() => setNum(n => pickRandom(n))}
-        style={{
-          position: "relative",
-          zIndex: 1,
-          margin: "8px 0 16px",
-          width: miloW,
-          height: miloH,
-          overflow: "hidden",
-          cursor: "pointer",
-        }}
-      >
-        <iframe
-          key={num}
-          src={`/milo-${num}.html`}
-          style={{
-            position: "absolute",
-            width: 720,
-            height: 600,
-            border: "none",
-            background: "transparent",
-            pointerEvents: "none",
-            transform: `scale(${MILO_SCALE})`,
-            transformOrigin: "top left",
-            left: CROP_OFFSET_X * MILO_SCALE,
-            top: CROP_OFFSET_Y * MILO_SCALE,
-          }}
-          title="Milo"
+      <div style={{ position: "relative", zIndex: 1, margin: "8px 0 16px" }}>
+        <MiloSprite
+          width={miloW}
+          height={miloH}
+          scale={MILO_SCALE}
+          offsetX={CROP_OFFSET_X}
+          offsetY={CROP_OFFSET_Y}
+          clickable
         />
       </div>
     </>
