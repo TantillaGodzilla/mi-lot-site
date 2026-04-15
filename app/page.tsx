@@ -59,13 +59,13 @@ function Hero() {
 
       {/* sub-headline */}
       <h2 style={{ fontSize: "clamp(28px, 4.5vw, 56px)", fontWeight: 800, lineHeight: 1.15, maxWidth: 760, marginBottom: 20, position: "relative", zIndex: 1 }}>
-        <span style={{ color: "#fff", display: "block" }}>Why go to dealers</span>
-        <span style={{ color: "var(--purple-light)", display: "block" }}>when the dealers can come to you?</span>
+        <span style={{ color: "#fff", display: "block" }}>Why Go To Dealers</span>
+        <span style={{ color: "var(--purple-light)", display: "block" }}>When The Dealers Can Come To You?</span>
       </h2>
 
       {/* body */}
       <p style={{ fontSize: 18, color: "rgba(240,238,255,0.55)", lineHeight: 1.7, maxWidth: 520, marginBottom: 36 }}>
-        Tell Me What You Want. I&apos;ll Put It In Front Of The Right People. You Pick The Best Offer. Simple As That.
+        Tell me what you want. I&apos;ll put it in front of the right people. You pick the best offer. Simple as that.
       </p>
 
       {/* CTA */}
