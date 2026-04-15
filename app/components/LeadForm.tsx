@@ -1226,8 +1226,14 @@ export default function LeadForm() {
           }}>
             Your information is private and used only to match you with relevant vehicle reps.
             It will not be sold or shared beyond that purpose.{" "}
-            Questions? Call or text{" "}
-            <strong style={{ color: "rgba(240,238,255,0.5)" }}>615-243-5349</strong>.
+            Questions? Email{" "}
+            <a
+              href="mailto:Milo@Mi-Lot.com"
+              style={{ color: "rgba(240,238,255,0.6)", textDecoration: "underline" }}
+            >
+              Milo@Mi-Lot.com
+            </a>
+            .
           </p>
 
           {status === "error" && (
