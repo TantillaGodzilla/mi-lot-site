@@ -779,10 +779,10 @@ export default function LeadForm() {
             />
           </label>
 
-          {/* ── More Specific Needs ── */}
-          <Section title="More Specific Needs">
+          {/* ── Vehicle Needs ── */}
+          <Section title="Vehicle Needs">
             <p style={{ fontSize: 13, color: "rgba(240,238,255,0.4)", margin: 0, lineHeight: 1.6 }}>
-              Describe what you want in a sentence or two — or use the fields below. No need to do both.
+              Use any optional fields below, be as specific as you want.
             </p>
             <div style={{ borderTop: "1px solid rgba(168,85,247,0.12)", margin: "4px 0" }} />
 
