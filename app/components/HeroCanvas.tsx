@@ -24,7 +24,7 @@ export default function HeroCanvas() {
         width: GLOW_SIZE,
         height: GLOW_SIZE,
         borderRadius: "50%",
-        background: "radial-gradient(circle, rgba(120,30,220,0.27) 0%, rgba(100,20,180,0.15) 35%, rgba(80,10,160,0.00) 60%, transparent 100%)",
+        background: "radial-gradient(circle, rgba(120,30,220,0.41) 0%, rgba(100,20,180,0.23) 35%, rgba(80,10,160,0.00) 60%, transparent 100%)",
         pointerEvents: "none",
         zIndex: 0,
       }} />
